@@ -3,16 +3,18 @@ import Home from "./Home";
 import Blue from "./Blue";
 import Red from "./Red";
 import RoundBoi from "./RoundBoi";
+import TriBoi from "./TriBoi";
 
 const Content = () => {
   return (
     <>
       <div id="main-section">
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/blue" element={<Blue />}></Route>
-          <Route path="/red" element={<Red />}></Route>
-          <Route path="/round" element={<RoundBoi />}></Route>
+          <Route path="*" element={<Home />}></Route>
+          <Route path="/colors/blue" element={<Blue />}></Route>
+          <Route path="/colors/red" element={<Red />}></Route>
+          <Route path="/shapes/round" element={<RoundBoi />}></Route>
+          <Route path="/shapes/triangle" element={<TriBoi />}></Route>
         </Routes>
       </div>
     </>
