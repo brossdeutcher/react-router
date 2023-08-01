@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom";
+import Home from "./Home";
 import Blue from "./Blue";
 import Red from "./Red";
-import Home from "./Home";
+import RoundBoi from "./RoundBoi";
 
 const Content = () => {
   return (
@@ -11,6 +12,7 @@ const Content = () => {
           <Route path="/" element={<Home />}></Route>
           <Route path="/blue" element={<Blue />}></Route>
           <Route path="/red" element={<Red />}></Route>
+          <Route path="/round" element={<RoundBoi />}></Route>
         </Routes>
       </div>
     </>
