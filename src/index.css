@@ -36,6 +36,10 @@ body > div {
   justify-content: center;
 }
 
+.home {
+  background-color: coral;
+}
+
 .red {
   background-color: #b05f6d;
   color: white;
